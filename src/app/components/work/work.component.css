@@ -1,0 +1,62 @@
+.work__navigation h1{
+    position: absolute;
+    width: 116px;
+    height: 35px;
+    left: 30px;
+    top: 698px;
+
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+
+
+    color: #4957D3;
+}
+hr{
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: 30px;
+    top: 752px;
+    
+    border: 0.5px solid rgba(73, 87, 211, 0.3);   
+}
+.work__list-item{
+    position: absolute;
+    width: 360px;
+    height: 218px;
+    left: 0px;
+    }
+.work__juru-muziejus{
+    top: 779px;
+    background: url(./../../../assets/work__juru-muziejus.png);
+}
+.work__sausio-13{
+    top: 997px;
+    background: url(./../../../assets/work__sausio-13.png);
+}
+.work__open-house-2020{
+    top: 1215px;
+    background: url(./../../../assets/work__open-house-2020.png);
+}
+.work__open-house-2021{
+    top: 1430px;
+    background: url(./../../../assets/work__open-house-2021.png);
+}
+.work__hide-noses{
+    top: 1648px;
+    background: url(./../../../assets/work__hide-noses.png);
+}
+.work__givvery{
+    top: 1866px;
+    background: url(./../../../assets/work__givvery.png);
+}
+.work__zydu-muziejus{
+    top: 2084px;
+    background: url(./../../../assets/work__zydu-muziejus.png);
+}
+.work__papildykime{
+    background-color: #4957D3;
+    top: 2302px;
+}
