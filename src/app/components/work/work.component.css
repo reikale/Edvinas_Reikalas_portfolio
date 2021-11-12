@@ -1,3 +1,6 @@
+.work__navigation h1, .work__list-text{
+    font-family: Playfair Display;
+}
 .work__navigation h1{
     position: absolute;
     width: 116px;
@@ -5,7 +8,7 @@
     left: 30px;
     top: 698px;
 
-    font-family: Playfair Display;
+    
     font-weight: 800;
     font-size: 30px;
     line-height: 40px;
@@ -20,7 +23,7 @@ hr{
     left: 30px;
     top: 752px;
     
-    border: 0.5px solid rgba(73, 87, 211, 0.3);   
+    border: 0.5px solid rgba(73, 87, 211, 0.05);   
 }
 .work__list-item{
     position: absolute;
@@ -37,7 +40,7 @@ hr{
     background: url(./../../../assets/work__sausio-13.png);
 }
 .work__open-house-2020{
-    top: 1215px;
+    top: 1214px;
     background: url(./../../../assets/work__open-house-2020.png);
 }
 .work__open-house-2021{
@@ -59,4 +62,22 @@ hr{
 .work__papildykime{
     background-color: #4957D3;
     top: 2302px;
+    display: flex;
+}
+.work__papildykime .work__list-text{
+    position: relative;
+    display: flex;
+    width: 334px;
+    height: 191px;
+    padding-left: 30px;
+    top: 10px;
+    align-items: center;
+
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 80px;
+    /* or 105% */
+
+
+    color: #FFFFFF;
 }
