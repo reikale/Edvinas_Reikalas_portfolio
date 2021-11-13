@@ -1,38 +1,50 @@
 .work__navigation h1, .work__list-text{
     font-family: Playfair Display;
 }
-.work__navigation h1{
+.work__section{
     position: absolute;
+    top: 698px;
+}
+.work__navigation h1{
+    position: relative;
     width: 116px;
     height: 35px;
     left: 30px;
-    top: 698px;
-
-    
+   
     font-weight: 800;
     font-size: 30px;
     line-height: 40px;
-
-
     color: #4957D3;
 }
 hr{
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 0px;
     left: 30px;
-    top: 752px;
-    
+    top: 19px;
     border: 0.5px solid rgba(73, 87, 211, 0.05);   
 }
-.work__list-item{
-    position: absolute;
+.work__image{
+    position: relative;
     width: 360px;
     height: 218px;
     left: 0px;
+}
+.work__list-item{
+    display: block;
+    width: 100%;
+    
     }
+.work__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.work__list-item:hover{
+
+}    
 .work__juru-muziejus{
-    top: 779px;
+    top: 41px;
     background: url(./../../../assets/work__juru-muziejus.png);
 }
 .work__sausio-13{
