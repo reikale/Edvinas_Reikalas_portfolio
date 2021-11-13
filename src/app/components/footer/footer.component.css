@@ -1,0 +1,50 @@
+section{
+    position: absolute;
+    width: 232px;
+    height: 145px;
+    /* left: 73px; */
+    top: 3278px;
+    margin: 0 64px;
+}
+section .socials{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 26px;
+}
+.socials a{
+    position: relative;
+    width: 37px;
+    height: 36px;
+
+}
+.footer__contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    height: 99px;
+    /* left: 73px; */
+    top: 28px;
+    
+
+    font-family: Playfair Display;
+    font-size: 15px;
+    line-height: 50px;
+    /* or 333% */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    color: #4957D3;
+
+    mix-blend-mode: normal;
+}
+.footer__end{
+    position: relative;
+    height: 75px;
+    top: 9px;
+    
+}

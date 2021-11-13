@@ -28,13 +28,19 @@
     color: #4957D3;
 
 }
-.contact-form__title hr{
+.contact-form__section hr{
     position: relative;
     width: 300px;
     height: 0px;
-    top: 20.5px;
+    
 
     border: 0.5px solid rgba(73, 87, 211, 0.05);
+}
+.first-hr{
+    top: 20.5px;
+}
+.second-hr{
+    top: 44px;
 }
 .contact-form__form p{
     position: relative;
@@ -67,16 +73,16 @@
     font-size: 20px;
     color:  #4957D3;
     line-height: 23px;
-    opacity: 0.6;
+    
     padding-left: 12px;
     padding-right: 12px;
 }
 .contact-form__form-input input::placeholder, .contact-form__form-textarea textarea::placeholder{
     position: relative;
     font-size: 20px;
-    color:  #4957D3;
+    color:  rgba(73, 87, 211, 0.3);
     line-height: 23px;
-    opacity: 0.6;
+    
 }
 .contact-form__form-textarea textarea{
     position: relative;
@@ -88,9 +94,9 @@
     border: 1px solid rgba(73, 87, 211, 0.1);
     
     font-size: 20px;
-    color:  #4957D3;
+    color:  rgba(73, 87, 211, 1);
     line-height: 23px;
-    opacity: 0.6;
+    
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -106,4 +112,5 @@
     line-height: 35px;
     font-weight: 800;
     color: #F6F6F6;
+    margin-bottom: 66px;
 }
