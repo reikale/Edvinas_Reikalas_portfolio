@@ -1,47 +1,68 @@
-.about__name h1, .about__intro h2, .about__intro-text{
+.about__name, .about__intro h2, .about__intro-text{
     font-family: 'Playfair Display', sans-serif;
     position: absolute;
+    color: #4957D3;
 }
 .about__section{
-    margin: 0 30px 0 29px;
+    justify-content: center;
     display: flex;
 }
+.bigger-screen{
+    justify-content: center;
+    display: flex;
+}
+.first_section{
+    position: absolute;
+    width: 268px;
+    height: 347px;
+    top: 107px;
+    margin: 0 auto;
+    display: flex;
+    
+}
 .about__name{
-    margin-top: 42px;
-    /* width: 167px;
-    height: 98px; */
+    position: absolute;
     z-index: 2;
-    
-    
 }
 .about__name h1{
     font-size: 40px;
     line-height: 40px;
     color: rgba(73, 87, 211, 1);
-    background-color: white;
+    background-color: #F6F6F6;
     width: 167px;
     height: 95px;
     display: flex;
     align-items: center;
    font-weight: 800;
 }
-.about__img{
-    position: absolute;
+.about__img-mobile{
+    position: relative;
     z-index: 0;
     width: 233px;
     height: 292px;
-    right: 63px;
-    top: 162px;
+    margin-left: 35px;
+    top: 55px;
 }
+.about__img-desktop{
+    display: none;
+}
+/* About - tesktas  */
 
+.about__intro{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    justify-content: center;
+    
+}
 .about__intro h2{
     font-size: 20px;
     line-height: 23px;
-    font-weight: bold italic italic;
-    
+    font-weight: 800;
+    font-style: italic;
     width: 249px;
     height: 27px;
-    left: 56px;
+    /* left: 56px; */
     top: 481px;
     color: #4957D3;
     padding-bottom: 27px;
@@ -50,7 +71,7 @@
     color: #4957D3;
     width: 300px;
     height: 130px;
-    left: 30px;
+    /* left: 30px; */
     top: 524px;
     font-size: 15px;
     line-height: 18px;
@@ -60,4 +81,72 @@
     color: #4957D3;
     mix-blend-mode: normal;
 
+}
+@media screen and (min-width: 538px) {
+    .bigger-screen{
+        display: flex;
+        position: absolute;
+        border: olive 1px solid;
+        width: 953px;
+        height: 782px;
+        top: 54px;
+        justify-content: flex-end;
+    }
+    .first_section{
+        
+        width: 537px;
+        height: 782px;
+        left: 0;
+        top: 0;
+        border: orangered 1px solid;
+    }
+    .about__name{
+        width: 479px;
+        height: 330px;
+        position: relative;
+        top: 144px;
+    }
+    .about__name h1{
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .about__picture{
+        position: absolute;
+        border: orange 1px solid;
+        left: 0px;
+    }
+    .about__img-desktop{
+        display: initial;
+        width: 465px;
+        height: 517px;
+        position: relative;
+        top: 328px;
+        margin-left: 72px;
+    }
+    .about__img-mobile{
+        display: none;
+    }
+    .about__intro{
+        position: relative;
+        top: 311px;
+        width: 459px;
+        height: 215px;
+        padding: 28px;
+        background-color: #F6F6F6;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .about__intro h2{
+        top: 0px;
+        
+    }
+    .about__intro-text{
+      top: 18px;
+      width: 459px;
+      height: 187px;
+      font-size: 20px;
+        line-height: 23px;
+    text-align: left;
+    margin-bottom: 28px;
+    }
 }

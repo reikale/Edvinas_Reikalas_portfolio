@@ -46,8 +46,8 @@ hr{
     left: 0;
     width: 360px;
     height: 218px;
-    background: rgba(73, 87, 211, 0.6);
-    justify-content: center;
+    background: rgba(73, 87, 211, 0.8);
+    justify-content: space-around;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -55,14 +55,18 @@ hr{
    transition: opacity 0.25s;
 }
 .work__overlay > *{
-   
+    transform: translateY(20px);
+    transition: transform 0.25s;
 }
-.work__overlay:hover{
+.work__overlay:hover,  .work__overlay:active> * {
+    transform: translateY(0);
+}
+.work__overlay:hover, .work__overlay:active{
     opacity: 1;
 }
 .work__overlay-title{
     width: 187px;
-    height: 80px;
+    font-weight: 700;
     color: #F6F6F6;
     font-size: 30px;
     line-height: 40px;
@@ -79,9 +83,7 @@ hr{
     display: flex;
     color: #F6F6F6;
 }
-.work__list-item:hover{
 
-}
 .juru-muziejus, 
 .sausio-13, 
 .open-house-20, 

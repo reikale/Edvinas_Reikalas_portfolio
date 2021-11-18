@@ -7,50 +7,78 @@ body{
     
 }
 nav{
-    margin: 27px 30px 0px 30px;
-    
+    margin: 27px 30px 0px 30px;  
 }
 .name{
-    width: 148px;
+    width: 200px;
     height: 20px;
     left: 29px;
     position: absolute;
     margin-bottom: 20px;
 }
-p{
+.nav__Edvinas{
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 18px;
     color: #4957D3;
     font-weight: 900;
+
 }
 .hamburger{
+    position: absolute;
+    right: 30px;
     width: 29px;
     height: 21px;
 }
 .nav__hamburger-line{
-    position: absolute;
     width: 29px;
     height: 3px;
     background-color: #4957D3;
-    left: 301px;
+    margin-bottom: 7px; 
 }
-.first{
-    top: 30px;
+.meniu{
+    display: none;
 }
-.second{
-    top: 39px;
-}
-.third{
-    top: 49px;
-}
+
+
 hr{
-    position: absolute;
-    top: 65px;
-    /* margin-left: 30px;
-    margin-right: 30px; */
-    width: 300px;
-    /* color: #4957D3; */
-    border: 0.5px solid rgba(73, 87, 211, 0.5);
-    left: 30px;
+    position: relative;
+    top: 35px;
+    width: 100%;
+    border: 0.5px solid rgba(73, 87, 211, 0.25);
+}
+@media screen and (min-width: 538px){
+    .name{
+        /* left: 100px; */
+        line-height: 29px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .meniu{
+        display: flex;
+        position: absolute;
+        justify-content: flex-end;
+        width: 327px;
+        right: 30px;
+        
+    }
+    .meniu_a:hover, .meniu_a:active{
+        font-weight: 600;
+        font-style: italic;
+    }
+    .meniu_a{
+        text-decoration: none;
+        padding-left: 24px;
+        text-decoration-color: #4957D3;
+        color: #4957D3;
+        font-family: 'Playfair Display', serif;
+    }
+    .meniu__item{
+        font-size: 20px;
+        line-height: 23px;   
+    }
+    hr{
+        top: 26px;
+    }
 }
