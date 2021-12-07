@@ -46,7 +46,7 @@
 .about__img-desktop{
     display: none;
 }
-/* About - tesktas  */
+/* About - tekstas  */
 
 .about__intro{
     display: flex;
@@ -83,10 +83,11 @@
 
 }
 @media screen and (min-width: 538px) {
+    
     .bigger-screen{
         display: flex;
         position: absolute;
-        border: olive 1px solid;
+        /* border: olive 1px solid; */
         width: 953px;
         height: 782px;
         top: 54px;
@@ -98,7 +99,7 @@
         height: 782px;
         left: 0;
         top: 0;
-        border: orangered 1px solid;
+        /* border: orangered 1px solid; */
     }
     .about__name{
         width: 479px;
@@ -112,7 +113,7 @@
     }
     .about__picture{
         position: absolute;
-        border: orange 1px solid;
+        /* border: orange 1px solid; */
         left: 0px;
     }
     .about__img-desktop{

@@ -2,8 +2,11 @@
     font-family: Playfair Display;
 }
 .work__section{
+    margin-top: 34px;
     position: absolute;
     top: 698px;
+    /* border: #4957D3 1px solid; */
+    width: 100vw;
 }
 .work__navigation h1{
     position: relative;
@@ -18,26 +21,30 @@
 }
 hr{
     position: relative;
-    width: 300px;
+    width: 84vw;
     height: 0px;
+    margin-right: 30px;
     left: 30px;
     top: 19px;
     border: 0.5px solid rgba(73, 87, 211, 0.05);   
+}
+.work__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
 }
 .work__image{
     position: relative;
     width: 360px;
     height: 218px;
     left: 0px;
+    /* margin: 0 auto; */
 }
-.work__image--image{
-    display: block;
-    
-    width: 100%;
-}
+
 .work__list-item{
     display: block;
-    width: 100%;
+    width: 360px;
     position: absolute;
     }
 .work__overlay{
@@ -83,6 +90,9 @@ hr{
     display: flex;
     color: #F6F6F6;
 }
+.work__desktop{
+    display: none;
+}
 
 .juru-muziejus, 
 .sausio-13, 
@@ -93,6 +103,10 @@ hr{
 .zydu-muziejus{
     display: flex;
     position: relative;
+    width: 360px;
+    height: 218px;
+}
+.work__image img{
     width: 360px;
     height: 218px;
 }
@@ -113,12 +127,18 @@ hr{
 
 .work__papildykime{
     background-color: #4957D3;
-    top: 1572px;
+    top: 1570px;
     display: flex;
+}
+.papildykime-mobile{
+    display: flex;
+}
+.papildykime-desktop{
+    display: none;
 }
 .work__papildykime .work__list-text{
     position: relative;
-    display: flex;
+    
     width: 334px;
     height: 191px;
     padding-left: 30px;
@@ -128,8 +148,111 @@ hr{
     font-size: 76px;
     font-weight: 800;
     line-height: 80px;
-    /* or 105% */
-
-
     color: #FFFFFF;
+}
+
+/* --------------- */
+/* MEDIA QUERIES  */
+@media screen and (min-width: 538px) {
+    .work__section{
+        margin-top: 134px;
+        top: 901px;
+    }
+    .work__navigation{
+        width: 428px;
+        height: 140px;
+        left: 210px;
+        position: relative;
+    }
+    .work__navigation h1{
+        font-size: 80px;
+        line-height: 120px;
+    }
+    hr{
+        left: 182px;
+        width: 76vw;
+        margin-bottom: 37px;
+    }
+    .sausio-13, 
+    .open-house-20, 
+    .open-house-21,
+    .hide-noses,
+    .givvery,
+    .zydu-muziejus{
+        top: 45px; 
+    }
+    .work__list{
+        display: flex;
+        width: 1440px;
+        height: 870px;
+        /* border: brown 1px solid; */
+        display: flex;
+        margin: 0 auto;
+    }
+    .work__image{
+        display: flex;
+        width: 100vw;
+        height: 870px;
+        flex-wrap: wrap;
+        /* margin: 0 auto; */
+        justify-content: center;
+    }
+    .juru-muziejus, 
+    .sausio-13, 
+    .open-house-20, 
+    .open-house-21,
+    .hide-noses,
+    .givvery,
+    .zydu-muziejus{
+        
+        width: 479px;
+        height: 287px;
+    }
+    
+    
+    .juru-muziejus img, 
+    .sausio-13  img, 
+    .open-house-20  img, 
+    .open-house-21  img,
+    .hide-noses  img,
+    .givvery  img,
+    .zydu-muziejus  img{
+        
+        width: 480px;
+        height: 292px;
+    }
+    .work__overlay{
+        width: 480px;
+        height: 292px;
+        justify-content: center;
+    }
+    .work__overlay-title{
+        width: 366px;
+        height: 123px;
+        font-size: 40px;
+    }
+    .work__overlay-year{
+        font-size: 30px;
+    }
+    .work__papildykime{
+        top: 625px;
+        margin-left: 480px;
+        height: 292px;
+    }
+    .papildykime-mobile{
+        display: none;
+    }
+    .papildykime-desktop{
+        display: flex;
+    }
+    .work__list-item{
+        
+        width: 958px;
+    }
+    .work__papildykime .work__list-text{
+        font-size: 120px;
+        line-height: 120px;
+        padding-left: 91px;
+        top: 30px;
+    }
 }
