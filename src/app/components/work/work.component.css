@@ -182,12 +182,14 @@ hr{
         top: 45px; 
     }
     .work__list{
-        display: flex;
+        /* display: flex; */
+        position: relative;
         width: 1440px;
         height: 870px;
         /* border: brown 1px solid; */
-        display: flex;
+        /* display: flex; */
         margin: 0 auto;
+        flex-direction: initial;
     }
     .work__image{
         display: flex;
@@ -195,7 +197,7 @@ hr{
         height: 870px;
         flex-wrap: wrap;
         /* margin: 0 auto; */
-        justify-content: center;
+        /* justify-content: center; */
     }
     .juru-muziejus, 
     .sausio-13, 

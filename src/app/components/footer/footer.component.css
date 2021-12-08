@@ -1,10 +1,19 @@
+
 section{
-    position: absolute;
+    position: relative;
     width: 232px;
     height: 145px;
     /* left: 73px; */
-    top: 3278px;
-    margin: 0 64px;
+    top: 2509px;
+    margin: 0 auto;
+}
+hr{
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: -30px;
+
+    border: 0.5px solid rgba(73, 87, 211, 0.05);
 }
 section .socials{
     position: relative;
@@ -42,9 +51,51 @@ section .socials{
 
     mix-blend-mode: normal;
 }
+.footer__name-phone{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: space-around;
+}
 .footer__end{
     position: relative;
     height: 75px;
     top: 9px;
     
+}
+
+/* --------------- */
+/* MEDIA QUERIES  */
+@media screen and (min-width: 538px){
+    hr{
+        width: 90vw;
+        left: 0px;
+    }
+    section{
+        width: 1239px;
+        height: 99px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 65px;
+    }
+    
+    .socials{
+        width: 196px;
+        justify-content: space-between;
+        margin-top: 62px;
+    }
+    
+    .footer__contact{
+        margin-top: 62px;
+        
+        width: 746px;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .footer__name-phone{
+        justify-content: space-between;
+        width: 330px;
+    }
 }
