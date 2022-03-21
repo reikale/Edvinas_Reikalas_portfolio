@@ -6,6 +6,7 @@
 .about__section{
     justify-content: center;
     display: flex;
+    width: 100vw;
 }
 .bigger-screen{
     justify-content: center;
@@ -82,7 +83,7 @@
     mix-blend-mode: normal;
 
 }
-@media screen and (min-width: 538px) {
+@media screen and (min-width: 1170px) {
     
     .bigger-screen{
         display: flex;
@@ -150,4 +151,7 @@
     text-align: left;
     margin-bottom: 28px;
     }
+}
+@media screen and (min-width: 538px) {
+
 }
