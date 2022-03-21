@@ -114,7 +114,7 @@
 /* MEDIA QUERIES  */
 @media screen and (min-width: 538px){
     .contact-form__section{
-        top: 2250px;
+        top: 1550px;
         width: 98vw;
         display: flex;
         flex-direction: column;
