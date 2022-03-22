@@ -214,6 +214,11 @@ hr{
     
     .papildykime-desktop, .papildykime_field{
         display: flex;
+        font-size: 53px;
+    }
+}
+@media screen and (min-width: 1010px) {
+    .papildykime-desktop, .papildykime_field{
         font-size: 80px;
     }
 }

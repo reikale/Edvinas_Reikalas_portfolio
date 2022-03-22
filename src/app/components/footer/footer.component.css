@@ -1,24 +1,24 @@
-
 section{
     position: relative;
     width: 232px;
     height: 145px;
     /* left: 73px; */
-    top: 2509px;
+    top: 1507px;
     margin: 0 auto;
+    width: 80vw;
 }
 hr{
     position: absolute;
-    width: 300px;
+    width: 80vw;
     height: 0px;
-    left: -30px;
+    
 
     border: 0.5px solid rgba(73, 87, 211, 0.05);
 }
 section .socials{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    
     top: 26px;
 }
 .socials a{
@@ -66,13 +66,83 @@ section .socials{
 
 /* --------------- */
 /* MEDIA QUERIES  */
-@media screen and (min-width: 538px){
-    hr{
-        width: 75vw;
-        left: 0px;
-    }
+@media screen and (min-width: 375px){
     section{
-        width: 1239px;
+        top: 1807px;
+    }
+    section .socials{
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 461px){
+    section{
+        top: 1920px;
+    }
+    section .socials{
+        justify-content: space-evenly;
+    }
+    .footer__contact{
+        justify-content: space-around;
+        flex-direction: column;
+        width: 70vw;
+    }
+}
+@media screen and (min-width: 491px){
+    section{
+        top: 2020px;
+    }
+}
+@media screen and (min-width: 520px){
+    section{
+        top: 2150px;
+    }
+}
+@media screen and (min-width: 550px){
+    section{
+        top: 2370px;
+    }
+}
+@media screen and (min-width: 597px){
+    section{
+        top: 2870px;
+    }
+    .footer__contact{
+        flex-direction: row;
+        width: 423px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 715px){
+    section{
+        top: 3030px;
+    }
+}
+@media screen and (min-width: 750px){
+    section{
+        top: 960px;
+    }
+}
+@media screen and (min-width: 904px){
+    section{
+        top: 1160px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1069px){
+    section{
+        top: 1360px;
+    }
+}
+@media screen and (min-width: 1170px){
+    
+    section{
+        top: 1760px;
+        width: 80vw;
         height: 99px;
         display: flex;
         flex-direction: row-reverse;
@@ -89,7 +159,6 @@ section .socials{
     
     .footer__contact{
         margin-top: 62px;
-        
         width: 746px;
         justify-content: space-around;
         flex-direction: row;

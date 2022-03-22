@@ -5,3 +5,6 @@
 .content{
    display: grid;
 }
+app-contact-form{
+    width: 100vw;
+}

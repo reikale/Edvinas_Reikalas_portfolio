@@ -10,7 +10,7 @@
     width: 300px;
     height: 775px;
     
-    top: 2566px;
+    top: 1500px;
     margin: 0 auto;
 }
 .contact-form__title h1{
@@ -112,9 +112,60 @@
 
 /* --------------- */
 /* MEDIA QUERIES  */
-@media screen and (min-width: 538px){
+@media screen and (min-width: 375px){
     .contact-form__section{
-        top: 1550px;
+        top: 1786px;
+    }
+}
+@media screen and (min-width: 461px){
+    .contact-form__section{
+        top: 1910px;
+    }
+}
+@media screen and (min-width: 491px){
+    .contact-form__section{
+        top: 2034px;
+    }
+}
+@media screen and (min-width: 520px){
+    .contact-form__section{
+        top: 2158px;
+    }
+}
+@media screen and (min-width: 550px){
+    .contact-form__section{
+        top: 2358px;
+    }
+}
+@media screen and (min-width: 597px){
+    .contact-form__section{
+        top: 2858px;
+    }
+}
+@media screen and (min-width: 715px){
+    .contact-form__section{
+        top: 3047px;
+    }
+}
+@media screen and (min-width: 750px){
+    .contact-form__section{
+        top: 958px;
+    }
+}
+@media screen and (min-width: 904px){
+    .contact-form__section{
+        top: 1158px;
+    }
+}
+
+@media screen and (min-width: 1069px){
+    .contact-form__section{
+        top: 1358px;
+    }
+}
+@media screen and (min-width: 1170px){
+    .contact-form__section{
+        top: 1100px;
         width: 98vw;
         display: flex;
         flex-direction: column;
@@ -151,5 +202,10 @@
     }
     .contact-form__form hr{
         width: 75vw;
+    }
+}
+@media screen and (min-width: 1378px){
+    .contact-form__section{
+        top: 1600px;
     }
 }
