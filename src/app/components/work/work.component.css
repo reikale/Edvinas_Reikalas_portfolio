@@ -26,12 +26,13 @@ hr{
     height: 0px;
     margin-right: 30px;
     left: 30px;
-    top: 19px;
+    
     border: 0.5px solid rgba(73, 87, 211, 0.05);   
 }
 .container2{
     display: flex;
     flex-flow: wrap;
+    overflow: hidden;
 }
 .cell{
     padding: 0;
@@ -42,9 +43,10 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .papildykime_field .papildykime-desktop{
-    font-size: 120px;
+    
     font-weight: 800;
     line-height: 80px;
     color: #FFFFFF;
@@ -206,6 +208,14 @@ hr{
     .work__overlay-year{
         font-size: 30px;
     }
+    hr{
+        margin: 32px 0;
+    }
+    
+    .papildykime-desktop, .papildykime_field{
+        display: flex;
+        font-size: 80px;
+    }
 }
 @media screen and (min-width: 1170px) {
     .cell{
@@ -214,6 +224,7 @@ hr{
     .work__section{
         margin-top: 134px;
         top: 901px;
+        width: 100%;
     }
     .work__navigation{
         width: 428px;
@@ -228,7 +239,7 @@ hr{
     hr{
         left: 182px;
         width: 76vw;
-        margin-bottom: 37px;
+        margin-bottom: 64px;
     }
     .sausio-13, 
     .open-house-20, 
@@ -308,6 +319,9 @@ hr{
     .papildykime-desktop{
         display: flex;
     }
+    .papildykime_field .papildykime-desktop{
+        font-size: 120px;
+    }
     .work__list-item{
         
         width: 1100px;
@@ -317,5 +331,8 @@ hr{
         line-height: 120px;
         padding-left: 91px;
         top: 30px;
+    }
+    .papildykime_field{
+        width: 70vw;
     }
 }
