@@ -1,79 +1,86 @@
-.work__navigation h1, .work__list-text, .work__overlay{
+.work__navigation h1, .work__list-text, .work__overlay {
     font-family: Playfair Display;
 }
 
-.work__section{
+.work__section {
     margin-top: 34px;
     position: absolute;
     top: 698px;
-    /* border: #4957D3 1px solid; */
     width: 100vw;
 }
-.work__navigation h1{
+
+.work__navigation h1 {
     position: relative;
     width: 116px;
     height: 35px;
     left: 30px;
-   
+
     font-weight: 800;
     font-size: 30px;
     line-height: 40px;
     color: #4957D3;
 }
-hr{
+
+hr {
     position: relative;
     width: 84vw;
     height: 0px;
     margin-right: 30px;
     left: 30px;
-    
-    border: 0.5px solid rgba(73, 87, 211, 0.05);   
+
+    border: 0.5px solid rgba(73, 87, 211, 0.05);
 }
-.container2{
+
+.container2 {
     display: flex;
     flex-flow: wrap;
     overflow: hidden;
 }
-.cell{
+
+.cell {
     padding: 0;
     position: relative;
 }
-.papildykime_field{
+
+.papildykime_field {
     background: #4957D3;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.papildykime_field .papildykime-desktop{
-    
+
+.papildykime_field .papildykime-desktop {
+
     font-weight: 800;
     line-height: 80px;
     color: #FFFFFF;
     position: relative;
 }
-.work__list{
+
+.work__list {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95vw;
 }
-.work__image, .papildykime_field{
+
+.work__image, .papildykime_field {
     position: relative;
     width: calc(100vw /2);
     padding: 0;
 }
 
-.work__list-item{
+.work__list-item {
     display: block;
     width: 360px;
     position: absolute;
-    }
-.work__overlay{
+}
+
+.work__overlay {
     position: absolute;
     top: 0;
     left: 0;
-    /* border: red 1px solid; */
     width: 100vw;
     height: 100%;
     background: rgba(73, 87, 211, 0.8);
@@ -84,21 +91,21 @@ hr{
     opacity: 0;
     transition: opacity 0.25s;
 }
-/* .zydu_muziejus-uzsklanda{
-    max-height: max-content;
-    width: -webkit-fill-available !important;
-} */
-.work__overlay > *{
+
+.work__overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 }
-.work__overlay:hover,  .work__overlay:active> * {
+
+.work__overlay:hover, .work__overlay:active>* {
     transform: translateY(0);
 }
-.work__overlay:hover, .work__overlay:active{
+
+.work__overlay:hover, .work__overlay:active {
     opacity: 1;
 }
-.work__overlay-title{
+
+.work__overlay-title {
     width: 187px;
     font-weight: 700;
     color: #F6F6F6;
@@ -108,7 +115,8 @@ hr{
     display: flex;
     justify-content: center;
 }
-.work__overlay-year{
+
+.work__overlay-year {
     height: 40px;
     width: 39px;
     font-size: 20px;
@@ -117,56 +125,64 @@ hr{
     display: flex;
     color: #F6F6F6;
 }
-.work__desktop{
+
+.work__desktop {
     display: none;
 }
 
-.juru-muziejus, 
-.sausio-13, 
-.open-house-20, 
+.juru-muziejus,
+.sausio-13,
+.open-house-20,
 .open-house-21,
 .hide-noses,
 .givvery,
-.zydu-muziejus{
+.zydu-muziejus {
     display: flex;
     position: relative;
     width: 100%;
     height: 100%;
 }
-.work__image img{
+
+.work__image img {
     width: 100vw;
     height: 218px;
     object-fit: cover;
 }
-.juru-muziejus{
+
+.juru-muziejus {
     top: 45px;
 }
-.work__juru-muziejus{
+
+.work__juru-muziejus {
     top: 0px;
 }
-.sausio-13, 
-.open-house-20, 
+
+.sausio-13,
+.open-house-20,
 .open-house-21,
 .hide-noses,
 .givvery,
-.zydu-muziejus{
-    top: 45px; 
+.zydu-muziejus {
+    top: 45px;
 }
 
-.work__papildykime{
+.work__papildykime {
     background-color: #4957D3;
     top: 1570px;
     display: flex;
 }
-.papildykime-mobile{
+
+.papildykime-mobile {
     display: flex;
 }
-.papildykime-desktop{
+
+.papildykime-desktop {
     display: none;
 }
-.work__papildykime .work__list-text{
+
+.work__papildykime .work__list-text {
     position: relative;
-    
+
     width: 334px;
     height: 191px;
     padding-left: 30px;
@@ -181,163 +197,183 @@ hr{
 
 /* --------------- */
 /* MEDIA QUERIES  */
-@media screen and (max-width: 750px){
-    .col{
+@media screen and (max-width: 750px) {
+    .col {
         display: flex;
         justify-content: center;
     }
-    .cell{
+
+    .cell {
         width: 100vw;
     }
-    .work__image, .work__overlay{
+
+    .work__image, .work__overlay {
         width: 100vw;
     }
 }
-@media screen and (min-width: 750px){
-    .work__image, .work__overlay, .papildykime_field{
+
+@media screen and (min-width: 750px) {
+    .work__image, .work__overlay, .papildykime_field {
         width: calc(100vw /2);
         height: 101%;
     }
-    .cell{
+
+    .cell {
         width: calc(100% / 2);
     }
-    .work__overlay-title{
+
+    .work__overlay-title {
         font-size: 40px;
         width: 301px;
     }
-    .work__overlay-year{
+
+    .work__overlay-year {
         font-size: 30px;
     }
-    hr{
+
+    hr {
         margin: 32px 0;
     }
-    
-    .papildykime-desktop, .papildykime_field{
+
+    .papildykime-desktop, .papildykime_field {
         display: flex;
         font-size: 53px;
     }
 }
+
 @media screen and (min-width: 1010px) {
-    .papildykime-desktop, .papildykime_field{
+    .papildykime-desktop, .papildykime_field {
         font-size: 80px;
     }
 }
+
 @media screen and (min-width: 1170px) {
-    .cell{
+    .cell {
         width: calc(100% / 3);
     }
-    .work__section{
+
+    .work__section {
         margin-top: 134px;
         top: 901px;
         width: 100%;
     }
-    .work__navigation{
+
+    .work__navigation {
         width: 428px;
         height: 140px;
         left: 210px;
         position: relative;
     }
-    .work__navigation h1{
+
+    .work__navigation h1 {
         font-size: 80px;
         line-height: 120px;
     }
-    hr{
+
+    hr {
         left: 182px;
         width: 76vw;
         margin-bottom: 64px;
     }
-    .sausio-13, 
-    .open-house-20, 
+
+    .sausio-13,
+    .open-house-20,
     .open-house-21,
     .hide-noses,
     .givvery,
-    .zydu-muziejus{
-        top: 45px; 
-        
+    .zydu-muziejus {
+        top: 45px;
+
     }
-    .work__list{
-        /* display: flex; */
+
+    .work__list {
         position: relative;
         width: 1440px;
         height: 870px;
-        /* border: brown 1px solid; */
-        /* display: flex; */
         margin: 0 auto;
         flex-direction: initial;
     }
-    .work__image{
+
+    .work__image {
         display: flex;
         object-fit: contain;
         object-fit: cover;
         width: 100%;
         height: 101%;
         flex-wrap: wrap;
-        /* margin: 0 auto; */
-        /* justify-content: center; */
-        /* inline-size: inherit; */
     }
-    .juru-muziejus, 
-    .sausio-13, 
-    .open-house-20, 
+
+    .juru-muziejus,
+    .sausio-13,
+    .open-house-20,
     .open-house-21,
     .hide-noses,
     .givvery,
-    .zydu-muziejus{
-        
+    .zydu-muziejus {
+
         width: 550px;
         height: 330px;
     }
-    
-    
-    .juru-muziejus img, 
-    .sausio-13  img, 
-    .open-house-20  img, 
-    .open-house-21  img,
-    .hide-noses  img,
-    .givvery  img,
-    .zydu-muziejus  img{
-        
+
+
+    .juru-muziejus img,
+    .sausio-13 img,
+    .open-house-20 img,
+    .open-house-21 img,
+    .hide-noses img,
+    .givvery img,
+    .zydu-muziejus img {
+
         width: 550px;
         height: 330px;
     }
-    .work__overlay{
+
+    .work__overlay {
         width: 100%;
-        /* height: 330px; */
         justify-content: center;
     }
-    .work__overlay-title{
+
+    .work__overlay-title {
         width: 366px;
         height: 123px;
         font-size: 40px;
     }
-    .work__overlay-year{
+
+    .work__overlay-year {
         font-size: 30px;
     }
-    .work__papildykime{
+
+    .work__papildykime {
         top: 707px;
         margin-left: 550px;
         height: 330px;
     }
-    .papildykime-mobile{
+
+    .papildykime-mobile {
         display: none;
     }
-    .papildykime-desktop{
+
+    .papildykime-desktop {
         display: flex;
     }
-    .papildykime_field .papildykime-desktop{
+
+    .papildykime_field .papildykime-desktop {
         font-size: 120px;
     }
-    .work__list-item{
-        
+
+    .work__list-item {
+
         width: 1100px;
     }
-    .work__papildykime .work__list-text{
+
+    .work__papildykime .work__list-text {
         font-size: 120px;
         line-height: 120px;
         padding-left: 91px;
         top: 30px;
     }
-    .papildykime_field{
+
+    .papildykime_field {
         width: 70vw;
     }
 }

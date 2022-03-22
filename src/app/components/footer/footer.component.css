@@ -1,4 +1,4 @@
-section{
+section {
     position: relative;
     width: 232px;
     height: 145px;
@@ -7,27 +7,31 @@ section{
     margin: 0 auto;
     width: 80vw;
 }
-hr{
+
+hr {
     position: absolute;
     width: 80vw;
     height: 0px;
-    
+
 
     border: 0.5px solid rgba(73, 87, 211, 0.05);
 }
-section .socials{
+
+section .socials {
     position: relative;
     display: flex;
-    
+
     top: 26px;
 }
-.socials a{
+
+.socials a {
     position: relative;
     width: 37px;
     height: 36px;
 
 }
-.footer__contact{
+
+.footer__contact {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -35,7 +39,7 @@ section .socials{
     height: 99px;
     /* left: 73px; */
     top: 28px;
-    
+
 
     font-family: Playfair Display;
     font-size: 15px;
@@ -51,96 +55,110 @@ section .socials{
 
     mix-blend-mode: normal;
 }
-.footer__name-phone{
+
+.footer__name-phone {
     display: flex;
     flex-direction: row;
     width: 230px;
     justify-content: space-around;
 }
-.footer__end{
+
+.footer__end {
     position: relative;
     height: 75px;
     top: 9px;
-    
+
 }
 
 /* --------------- */
 /* MEDIA QUERIES  */
-@media screen and (min-width: 375px){
-    section{
+@media screen and (min-width: 375px) {
+    section {
         top: 1807px;
     }
-    section .socials{
+
+    section .socials {
         justify-content: space-between;
     }
 }
-@media screen and (min-width: 461px){
-    section{
+
+@media screen and (min-width: 461px) {
+    section {
         top: 1920px;
     }
-    section .socials{
+
+    section .socials {
         justify-content: space-evenly;
     }
-    .footer__contact{
+
+    .footer__contact {
         justify-content: space-around;
         flex-direction: column;
         width: 70vw;
     }
 }
-@media screen and (min-width: 491px){
-    section{
+
+@media screen and (min-width: 491px) {
+    section {
         top: 2020px;
     }
 }
-@media screen and (min-width: 520px){
-    section{
+
+@media screen and (min-width: 520px) {
+    section {
         top: 2150px;
     }
 }
-@media screen and (min-width: 550px){
-    section{
+
+@media screen and (min-width: 550px) {
+    section {
         top: 2370px;
     }
 }
-@media screen and (min-width: 597px){
-    section{
+
+@media screen and (min-width: 597px) {
+    section {
         top: 2870px;
     }
-    .footer__contact{
+
+    .footer__contact {
         flex-direction: row;
         width: 423px;
         margin: 0 auto;
     }
 }
-@media screen and (min-width: 715px){
-    section{
+
+@media screen and (min-width: 715px) {
+    section {
         top: 3030px;
     }
 }
-@media screen and (min-width: 750px){
-    section{
+
+@media screen and (min-width: 750px) {
+    section {
         top: 960px;
     }
 }
-@media screen and (min-width: 904px){
-    section{
+
+@media screen and (min-width: 904px) {
+    section {
         top: 1160px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
     }
-
 }
 
-@media screen and (min-width: 1069px){
-    section{
+@media screen and (min-width: 1069px) {
+    section {
         top: 1360px;
     }
 }
-@media screen and (min-width: 1170px){
-    
-    section{
+
+@media screen and (min-width: 1170px) {
+
+    section {
         top: 1760px;
         width: 80vw;
         height: 99px;
@@ -150,20 +168,21 @@ section .socials{
         align-items: center;
         margin-bottom: 65px;
     }
-    
-    .socials{
+
+    .socials {
         width: 196px;
         justify-content: space-between;
         margin-top: 62px;
     }
-    
-    .footer__contact{
+
+    .footer__contact {
         margin-top: 62px;
         width: 746px;
         justify-content: space-around;
         flex-direction: row;
     }
-    .footer__name-phone{
+
+    .footer__name-phone {
         justify-content: space-between;
         width: 330px;
     }
