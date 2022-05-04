@@ -11,5 +11,8 @@ export class WorkComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  modalDisplay = "block";
+  modalToggle(){
+    this.modalDisplay = "none" ? "block" : "none";
+  }
 }
