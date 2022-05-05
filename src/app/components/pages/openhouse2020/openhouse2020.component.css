@@ -4,7 +4,7 @@
   z-index: 10; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
+  width: 101%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
@@ -28,7 +28,7 @@
   background-color: #fff;
   display: flex;
   align-self: center;
-  height: 100vh;
+
 }
 .textblock{
   margin: 0 15%;
@@ -37,12 +37,33 @@
   width: 100%;
   margin: 4%;
 }
+.video-container{
+  margin: 4% 0;
+  height: 500px;
+}
 /* Content */
 iframe{
   align-self: center;
 }
-
-
+.poster-container{
+  margin: 2%;
+}
+.poster{
+  object-fit: contain;
+  width: 100%;
+}
+.poster-row{
+  display: flex;
+  flex-direction: row;
+margin: 2%;
+}
+.poste-row_item{
+  object-fit: contain;
+  width: calc(99% /3);
+}
+.item-middle{
+  margin: 0 5px;
+}
 /* The Close Button */
 .close {
   color: #aaa;
