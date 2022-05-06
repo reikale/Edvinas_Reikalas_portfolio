@@ -17,26 +17,20 @@
 }
 /* Modal Content/Box */
 .modal-content {
-
+background-color: #e8e8e8;
   margin: 1% auto 4%; /* 15% from the top and centered */
   padding: 20px;
   /* border: 1px solid #888; */
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.sausio13_content{
-  background-color: #000;
+.givvery_content{
+  background-color: #F5F5F5;
   display: flex;
   align-self: center;
 }
 /* Content */
 iframe{
-  align-self: center;
-}
-.sausio13_content-star{
-  padding-top: 30px;
-  height: 369px;
-  width: 425px;
   align-self: center;
 }
 

@@ -24,8 +24,8 @@
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.sausio13_content{
-  background-color: #000;
+.openhouse2021_content{
+  background-color: #1d5edb;
   display: flex;
   align-self: center;
 }
@@ -33,13 +33,13 @@
 iframe{
   align-self: center;
 }
-.sausio13_content-star{
-  padding-top: 30px;
-  height: 369px;
-  width: 425px;
-  align-self: center;
+.media{
+  margin: 2%;
 }
-
+.text-container p{
+  line-height: 1.5em;
+  color: #fff;
+}
 /* The Close Button */
 .close {
   color: #aaa;
